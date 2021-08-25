@@ -53,7 +53,7 @@ The writer would like to... :
 * HTML / CSS
 
 ## Known Bugs
-* There are no known bugs at the moment
+* There are no known bugs at the moment.If found one please reach out.
 
 ## Contact Information 
 
