@@ -19,7 +19,7 @@ def profile(uname):
     user = User.query.filter_by(username = uname).first()
     blogs = Blog.query.filter_by(user_id = user.id).all()
     if user is None:
-        (404)
+         return redirect(url_for('auth.login'))
 
     return render_template('profile/profile.html',user = user,blogs=blogs)  
 
