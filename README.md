@@ -56,7 +56,6 @@ The writer would like to... :
 * There are no known bugs at the moment.If found one please reach out.
 
 ## Contact Information 
-
 If you have any question or contributions, please email me at [mourinekitilimourine@gmail.com] 
 
 ## License
