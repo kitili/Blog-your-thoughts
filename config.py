@@ -2,7 +2,7 @@ import os
 
 class Config:
     QUOTE_API_BASE_URL ='http://quotes.stormconsultancy.co.uk/random.json'
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://mourine:shena2308@localhost/blog'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://mourine:shena@localhost/blog'
     SECRET_KEY = os.environ.get('SECRET_KEY')
 
     UPLOADED_PHOTOS_DEST ='app/static/photos'
@@ -29,11 +29,11 @@ class ProdConfig(Config):
     
 
 class TestConfig(Config):
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://mourine:shena23008@localhost/blog_test'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://mourine:shena@localhost/blog_test'
 
 
 class DevConfig(Config):
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://mourine:shena2308@localhost/blog'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://mourine:shena@localhost/blog'
     DEBUG = True
 
 config_options = {
