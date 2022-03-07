@@ -1,4 +1,4 @@
-# My THOUGHTS
+# My BLOG
 ## Author
 [kitili]
 
