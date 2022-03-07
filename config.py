@@ -18,7 +18,6 @@ class Config:
     SENDER_EMAIL = 'mourinekitilimourine@gmail.com'
 
 
-    # simple mde  configurations
     SIMPLEMDE_JS_IIFE = True
     SIMPLEMDE_USE_CDN = True
 

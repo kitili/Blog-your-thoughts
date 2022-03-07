@@ -1,4 +1,4 @@
-# MyBlog 
+# My THOUGHTS
 ## Author
 [kitili]
 
@@ -10,15 +10,15 @@
 
 ## User Stories
 What the user does...
-* View the blog posts and random quotes on the site.
-* Comment on blog posts.
+* View the thought posts and random quotes on the site.
+* Comment on thoughtposts.
 * View the most recent posts.
 * Get An email alert when a new post is made by joining a subscription.
 The writer would like to... :
-* sign in to the blog and see random quotes.
-* create a blog from the application.
+* sign in to thethought and see random quotes.
+* create a thought from the application.
 * delete comments that I find insulting or degrading.
-* update or delete blogs I have created.
+* update or delete thought I have created.
 
 ## Installation / Setup instruction
 
