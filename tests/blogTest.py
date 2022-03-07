@@ -2,7 +2,6 @@ import unittest
 from app.models import Blog,User
 from app import db
 
-
 class BlogTest(unittest.TestCase):
     def setUp(self):
         self.userMourine= User(username='mourine', password='shena', email='mourinekitilimourine@gmail.com')
